@@ -1,0 +1,13 @@
+smtp_server:
+    host: gator3021.hostgator.com
+    user: noreply@xxxx.com.pk
+    passwd: awzE&-XX]i
+    port: 465
+template_service:
+    host: gator3021.hostgator.com
+    uri:
+    method: GET
+update_service:
+    host: gator3021.hostgator.com
+    uri: api/vi/emailupdate
+    method: POST
