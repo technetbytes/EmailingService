@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu JAN 27 19:29:54 2022
+@author: saqibullah
+@email: saqibullah@gmail.com
+
+"""
+
 import smtplib , ssl
 import yaml
 
@@ -39,4 +47,8 @@ def email(cfg, receiver_email):
         server.quit() 
 
 
-email(get_configuration(),"saqib@abc.com.pk")
+# Call email function
+cfg = get_configuration()
+receiver_email = 'saqib@abc.com.pk'
+email(cfg, receiver_email)
+
